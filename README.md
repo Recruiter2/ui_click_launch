@@ -13,15 +13,19 @@ xdg-open http://127.0.0.1:7860
 
 #this part starts a dark ui the script is a bit more advanced
 ```
+
 #!/bin/bash
 cd
 pwd
 source /home/user_name/miniconda3/etc/profile.d/conda.sh
 conda activate textgen
 #eval "$(conda shell.bash hook)"
+xdg-open http://localhost:7860/?__theme=dark
 cd 
 cd text-generation-webui 
 python server.py --model vicuna-7B-1.1-GPTQ-4bit-128g --wbits 4 --groupsize 128 --model_type Llama # add any other command line args you want
+
+
  read -n 1 -s -r -p "Press any key to close."
 
 ```
