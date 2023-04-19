@@ -29,3 +29,4 @@ python server.py --model vicuna-7B-1.1-GPTQ-4bit-128g --wbits 4 --groupsize 128 
  read -n 1 -s -r -p "Press any key to close."
 
 ```
+#replace server.py with provided  file to autolaunch it's in darkmode
