@@ -7,6 +7,6 @@ python server.py --model vicuna-7B-1.1-GPTQ-4bit-128g --wbits 4 --groupsize 128 
 xdg-open http://127.0.0.1:7860
 ```
 
-#make file executable
-#depends on ur system I right click  on desktop and it allows to create a launcher then I link it to the script
+#make file executable \n
+#depends on ur system I right click  on desktop and it allows to create a launcher then I link it to the script 
 ![Capture d’écran du 2023-04-19 13-45-25](https://user-images.githubusercontent.com/39489591/233065462-839d2db7-320d-49f7-b795-0ea4b065749d.png)
