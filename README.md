@@ -8,3 +8,4 @@ xdg-open http://127.0.0.1:7860
 ```
 
 #make file executable
+#depends on ur system I right click  on desktop and it allows to create a launcher then I link it to the script
