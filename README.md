@@ -23,7 +23,7 @@ conda activate textgen
 #xdg-open http://localhost:7860/?__theme=dark
 cd 
 cd text-generation-webui 
-python server.py --model vicuna-7B-1.1-GPTQ-4bit-128g --wbits 4 --groupsize 128 --model_type Llama # add any other command line args you want
+python server.py # --model your_model_name --wbits 4 --groupsize 128 --model_type Llama # add any other command line args you want
 
 
  read -n 1 -s -r -p "Press any key to close."
