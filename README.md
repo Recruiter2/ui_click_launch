@@ -3,7 +3,7 @@
 ```
 cd 
 cd /text-generation-webui
-python server.py --model your_model_name --wbits 4 --groupsize 128 --model_type Llama # add any other command line args you want, no extension for name
+python server.py # --model your_model_name --wbits 4 --groupsize 128 --model_type Llama # add any other command line args you want, no extension for name
 xdg-open http://127.0.0.1:7860
 ```
 
